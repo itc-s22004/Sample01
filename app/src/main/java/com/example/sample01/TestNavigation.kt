@@ -26,7 +26,7 @@ fun TestNavigation(
     navController: NavHostController = rememberNavController(),
 ) {
     var titleText by remember {
-        mutableStateOf("")
+        mutableStateOf("aaa")
     }
     Surface(
         modifier = Modifier.fillMaxSize(),
